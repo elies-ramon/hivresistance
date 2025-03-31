@@ -1,10 +1,12 @@
 # hivresistance
 
-This R code allows to reproduce the experiments in the paper: Ramon, Elies. 2025.  *Unraveling HIV protease drug resistance and genetic diversity with kernel methods.* bioRxiv 
+This R code allows to reproduce the experiments in the paper: 
+
+Ramon, Elies. *Unraveling HIV protease drug resistance and genetic diversity with kernel methods.* bioRxiv 2025.03.26.644092; doi: [https://doi.org/10.1101/2025.03.26.644092](https://www.biorxiv.org/content/10.1101/2025.03.26.644092v1).
 
 The required packages are:
 
-* kerntools: https://cran.r-project.org/web/packages/kerntools/index.html
+* [kerntools](https://cran.r-project.org/web/packages/kerntools/index.html)
 * kernlab
 * maotai
 * stringi
@@ -16,7 +18,7 @@ The required packages are:
 * viridis
 
 
-Thw workflow is:
+The workflow is:
 
 1. preprocessing.R
 2. residue_dist.R
